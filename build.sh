@@ -12,13 +12,13 @@
 #  Add clang to your PATH before using this script.
 #
 
-LOCAL_VERSION_NUMBER=Neko-v0.1
+LOCAL_VERSION_NUMBER=XiaoQ_Neko-v0.1
 
 ARCH=arm64;
 CC=clang;
 CLANG_TRIPLE=aarch64-linux-gnu-;
 CROSS_COMPILE=aarch64-linux-gnu-;
-CROSS_COMPILE_COMPAT=arm-none-eabi-;
+CROSS_COMPILE_COMPAT=arm-linux-gnueabi-;
 THREAD=$(nproc --all);
 CC_ADDITION_FLAGS="OBJDUMP=llvm-objdump";
 OUT="../out";
